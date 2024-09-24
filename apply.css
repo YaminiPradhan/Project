@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background: linear-gradient( rgb(11, 40, 41),#01345b);
+    
+    color:burlywood;
+    font-weight: bold;
+   
+}
+.button-laptop {
+    display: none;
+}
+.form-laptop{
+    display: none;
+}
+.cont-form{
+    display: block;
+}
+.d{
+    display: none;
+}
+
+
+.logo-img{
+    width: 150px;
+}
+.login-page-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1{
+    display: block;
+  text-align: center;
+}
+.d2{
+    padding: 10px;
+    font-family:'Didot';
+    
+}
+
+.label{
+    width: 90px;
+    display: inline-block;
+}
+h5{
+    width: 100%;
+    color: rgb(16, 75, 95);
+   text-decoration: underline;
+   color:rgb(0, 0, 0);
+   background-color: rgb(145, 226, 226);
+
+}
+   
+h5:hover{
+    background-color:rgb(38, 160, 197);
+    color: wheat;
+}
+.d3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Didot';
+}
+
+.button{
+    display: block;
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px){
+
+    .button{
+        display: none;
+    }
+    .cont-form{
+        display: none;
+    }
+     
+.div-laptop{
+    display: block;
+}
+
+  .d1{
+    display: none;
+  } 
+  .d{
+    display: block;
+    margin-top: 35px;
+}
+  .form-laptop{
+    display: block;
+    width: 100wh;
+
+} 
+    
+ .d2{
+     width:50%;
+     position: relative;
+     left: 200px;
+    
+   
+ }
+ h5{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 200px;
+ }
+.d{
+   width: 100%;
+
+}
+ 
+
+.button-laptop {
+    display: block;
+    width:25%;
+    margin-top: 10px;
+    margin-right: 100px;
+   
+}
+
+  
+
+}
